@@ -1,5 +1,15 @@
 # PlasticCardPrintMachine
 
+Summary of the Project:
+
+I have designed this software for CIVIL Hospital Karachi, where the management introduce Plastic Card for OPD patient. In Plastic Card Patient Information is print and can be use for future visit.
+
+The Computer Operator feed the patien data in PHP-MySQL program, where on submit button I get an xml file where patient data is included. I get this data of FIFO basis and save this data to Microsoft SQL Server database than insert this data to Plastic Card Machine DBase database file, where as data inserted the Plastic Card is printed. Plastic Card Machine is only support DBase databse.
+
+I am using C Shap for code in MS Visual Studio using threading for get data on FIFO basis. 
+
+A SOAP based Webservices, where data receive in xml format, get in my application and save it in Microsoft SQL Server Table, where Patient OPD Card is printing in Plastic Machine.
+
 Steps to Install Software.
 --------------------------
 
